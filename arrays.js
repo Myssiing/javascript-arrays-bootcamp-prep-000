@@ -35,7 +35,6 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
-
 function accessElementInArray() {
   var array = [1, 2, 3]
   return array[2]
@@ -43,6 +42,6 @@ function accessElementInArray() {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   var array = [1, 2, 3]
-  array.shift(0)
+  array.shift()
   return array
 }
