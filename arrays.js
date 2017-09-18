@@ -16,7 +16,7 @@ const array = [ 1 ]
 const element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
-  [element,...array]
+  array = [element,...array]
   return array
 }
 
