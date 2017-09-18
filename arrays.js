@@ -14,5 +14,3 @@ var chocolateBars = [
 
 var addElementToBeginningOfArray = [chocolateBars, '3 musketeers']
 ['snickers', ...chocolateBars]
-
-//var addElementToEndOfArray(array, element)
