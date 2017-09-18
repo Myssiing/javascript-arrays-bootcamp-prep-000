@@ -5,11 +5,15 @@ var ingredient4 = "butter"
 var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 
-array chocolateBars = [
+var chocolateBars = [
   'snickers',
   'hundred grand',
   'kitkat',
   'skittles'
+]
+
+var 1 = [
+  
 ]
 
 function addElementToEndOfArray([1], "foo") {
