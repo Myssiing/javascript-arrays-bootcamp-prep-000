@@ -12,6 +12,7 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToBeginningOfArray(chocolateBars, 'payday') {
-['payday', ...chocolateBars]
+function addElementToEndOfArray(array,element){
+  array = [...array, element]
+  return array
 }
