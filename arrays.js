@@ -12,7 +12,12 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToEndOfArray(array,element){
+function addElementToEndOfArray(array,element) {
   array = [...array, element]
+  return array
+}
+
+function addElementToBeginningOfArray(array,element) {
+  array = [element, ...array]
   return array
 }
