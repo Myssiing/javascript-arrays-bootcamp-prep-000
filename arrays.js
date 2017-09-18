@@ -64,7 +64,7 @@ function removeElementFromEndOfArray(array) {
   return array
 }
 */
-
+//maybe just write it out plainly? i think i made it too complicated.
 
  function addElementToBeginningOfArray(array, element){
    array = [element, ...array]
