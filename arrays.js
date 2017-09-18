@@ -12,5 +12,5 @@ var chocolateBars = [
   'skittles'
 ]
 
-var addElementToBeginningOfArray(chocolateBars, 'payday')
+var addElementToBeginningOfArray[chocolateBars, 'payday']
 ['payday', ...chocolateBars]
