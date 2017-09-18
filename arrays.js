@@ -36,6 +36,4 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 var array = [1, 2, 3]
-function accessElementInArray(array, 2) {
-
-}
+function accessElementInArray(array[2]);
