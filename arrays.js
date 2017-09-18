@@ -12,8 +12,8 @@ var chocolateBars = [
   'skittles'
 ];
 
-var array = [1]
-var element = 'foo'
+const array = [1]
+const element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
   array = [element,...array]
@@ -42,7 +42,7 @@ function accessElementInArray() {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  const array = [1, 2, 3]
-  array.shift()
+  var array = [1, 2, 3]
+  array.shift(0)
   return array
 }
