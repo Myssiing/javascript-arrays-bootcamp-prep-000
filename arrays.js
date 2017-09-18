@@ -40,7 +40,7 @@ function accessElementInArray() {
   return array[2]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   var array = [1, 2, 3]
   array.shift()
   return array
@@ -52,9 +52,9 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(array) {
   var array = [1, 2, 3]
-  array = array.pop()
+  array.pop()
   return array
 }
 
