@@ -12,6 +12,8 @@ var chocolateBars = [
   'skittles'
 ]
 
+const array = [1]
+
 function addElementToBeginningOfArray() {
   ['foo', ...array]
   return array
