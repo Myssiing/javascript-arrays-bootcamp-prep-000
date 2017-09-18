@@ -13,15 +13,14 @@ var chocolateBars = [
 ]
 
 const array = [1]
+var element = 'foo'
 
-function addElementToBeginningOfArray(array, 'foo') {
+function addElementToBeginningOfArray(array, element) {
   ['foo', ...array]
   return array
 }
 
-const array = [1]
-
-function destructivelyAddElementToBeginningOfArray(array, 'foo') {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift('foo')
   return array
 }
