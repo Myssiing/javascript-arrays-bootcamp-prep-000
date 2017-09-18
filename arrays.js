@@ -12,7 +12,7 @@ var chocolateBars = [
   'skittles'
 ]
 
-const array = [ 1 ]
+const array = [1]
 const element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
@@ -26,7 +26,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 fuction addElementToEndOfArray(array,element) {
-  array = [...array, element]
+  [...array, element]
   return array
 }
 
