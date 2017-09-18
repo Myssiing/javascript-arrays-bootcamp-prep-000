@@ -23,6 +23,6 @@ function addElementToBeginningOfArray(array,element) {
 }
 
 function destructivelyAddElementToEndOfArray(array,element) {
-  array.unshift
+  array.unshift('foo')
   return array
 }
