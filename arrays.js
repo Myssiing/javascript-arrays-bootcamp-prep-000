@@ -16,7 +16,7 @@ const array = [1]
 const element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
-  begArray = [element,...array]
+  array = [element,...array]
   return array
 }
 
@@ -26,11 +26,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 fuction addElementToEndOfArray(array,element) {
-  endArray = [...array, element]
-  return array
-}
-
-function destructivelyAddElementToEndOfArray(array,element) {
-  array.push(element)
+  array = [...array, element]
   return array
 }
