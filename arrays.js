@@ -11,27 +11,3 @@ var chocolateBars = [
   'kitkat',
   'skittles'
 ]
-
-var 1 = [
-
-]
-
-function addElementToEndOfArray([1], "foo") {
-  array = [...array, element]
-  return array
-}
-
-function addElementToBeginningOfArray([1], "foo") {
-  array = [element, ...array]
-  return array
-}
-
-function destructivelyAddElementToEndOfArray([1], "foo") {
-  array.unshift("foo")
-  return array
-}
-
-function destructivelyAddElementToBeginningOfArray([1], "foo"]) {
-  array.push("foo")
-  return array
-}
