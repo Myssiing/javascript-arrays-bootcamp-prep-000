@@ -24,8 +24,3 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array
 }
-
-fuction addElementToEndOfArray(array,element) {
-  array = [...array, element]
-  return array
-}
