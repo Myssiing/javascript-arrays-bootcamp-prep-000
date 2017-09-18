@@ -22,12 +22,12 @@ function addElementToBeginningOfArray(array,element) {
   return array
 }
 
-function destructivelyAddElementToEndOfArray(array,element) {
+function destructivelyAddElementToEndOfArray([1], "foo") {
   array.unshift("foo")
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray(array,element) {
+function destructivelyAddElementToBeginningOfArray([1], "foo"]) {
   array.push("foo")
   return array
 }
