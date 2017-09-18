@@ -5,7 +5,7 @@ var ingredient4 = "butter"
 var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 
-var chocolateBars = [
+array chocolateBars = [
   'snickers',
   'hundred grand',
   'kitkat',
