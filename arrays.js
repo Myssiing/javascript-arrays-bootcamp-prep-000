@@ -15,7 +15,7 @@ var chocolateBars = [
 const array = [1]
 
 function addElementToBeginningOfArray(array, element) {
-  ['foo', ...array]
+  ('foo', ...array)
   return array
 }
 
