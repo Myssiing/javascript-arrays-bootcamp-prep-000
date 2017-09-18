@@ -14,11 +14,11 @@ var chocolateBars = [
 
 const array = [1]
 
-function addElementToBeginningOfArray() {
+function addElementToBeginningOfArray(array, element) {
   ['foo', ...array]
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray() {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift('foo')
 }
