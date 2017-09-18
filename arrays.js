@@ -13,7 +13,7 @@ var chocolateBars = [
 ]
 
 const array = [ 1 ]
-var element = 'foo'
+const element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
   [element,...array]
