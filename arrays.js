@@ -16,11 +16,11 @@ const array = [1]
 var element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
-  ['foo', ...array]
+  [element, ...array]
   return array
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift('foo')
+  array.unshift(element)
   return array
 }
