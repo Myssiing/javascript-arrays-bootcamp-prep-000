@@ -36,5 +36,5 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray([1, 2, 3], 2) {
-  
+
 }
