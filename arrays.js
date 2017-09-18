@@ -23,6 +23,10 @@ function addElementToBeginningOfArray(array,element) {
 }
 
 function destructivelyAddElementToEndOfArray(array,element) {
-  array.unshift(1, "foo")
+  array.unshift("foo")
   return array
+}
+
+function destructivelyAddElementToBeginningOfArray(array,element) {
+  array.push("foo")
 }
