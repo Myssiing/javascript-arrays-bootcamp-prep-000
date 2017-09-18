@@ -40,7 +40,7 @@ function accessElementInArray() {
   return array[2]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
+function destructivelyRemoveElementFromBeginningOfArray() {
   var array = [1, 2, 3]
   array.shift()
   return array
